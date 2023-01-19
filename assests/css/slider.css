@@ -1,0 +1,61 @@
+.parent {
+  /* text-align: center; */
+  height: none;
+  /* scroll-snap-type: x mandatory; */
+}
+
+.bannslogan{
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .parent {
+    /* text-align: center; */
+    height: 316px;
+    scroll-snap-type: x mandatory;
+  }
+  .bannslogan{
+    display: block;
+  }
+}
+.child {
+  flex-basis: 100%;
+  height: 100%;
+  background-color: rebeccapurple;
+  color: #fff;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  transition: translate 250ms;
+}
+
+.bg-color{
+  background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(231,56,39,0) 100%);
+}
+
+.bg-color h2{
+  background-color: #00508c;
+  border-left: 1px solid #43b0ff;
+  border-right: 1px solid #43b0ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.bannslogan {
+  max-width: 350px;
+  background: linear-gradient(to right, rgba(0,0,0,0.88) 0%, rgba(231,56,39,0) 100%);
+}
+.bannslogan h4 {
+  color: #FFFFFF;
+  font-size: 16px;
+  margin: 0;
+  padding: 15px 5px 15px 15px;
+  text-decoration: none;
+}
+
+
+
+

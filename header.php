@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assests/css/output.css">
   <link rel="stylesheet" href="http://localhost/front-end/assests/css/hamburger.css">
   <link rel="stylesheet" href="http://localhost/front-end/assests/css/global.css">
   <script src="http://localhost/front-end/assests/js/navigation.js" defer></script>
@@ -13,7 +13,7 @@
   <title>Stainless Steel Stockists UAE-Pipes & Tubes-Stainless Steel Dubai</title>
 </head>
 
-<body class="lg:container mx-auto px-6">
+<body class="container mx-auto px-6">
   <header class="mb-4">
     <div class="relative flex justify-between items-center">
       <div class="logo">

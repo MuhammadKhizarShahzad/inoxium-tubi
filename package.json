@@ -1,0 +1,23 @@
+{
+  "name": "inoxium-tubi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadKhizarShahzad/inoxium-tubi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadKhizarShahzad/inoxium-tubi/issues"
+  },
+  "homepage": "https://github.com/MuhammadKhizarShahzad/inoxium-tubi#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

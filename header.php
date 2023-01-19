@@ -85,37 +85,47 @@
         </li>
         <li>
           <a href="http://localhost/front-end/about-us/company-management.php">
-            About Us
+            Managment
           </a>
         </li>
         <li>
           <a href="http://localhost/front-end/products.php">
-            Products
+            History
           </a>
         </li>
         <li>
           <a href="http://localhost/front-end/Stretcher-Leveler/coil-processing.php">
-            Stretcher Levler
+            Factory Advantages
           </a>
         </li>
         <li>
           <a href="http://localhost/front-end/tube-mill.php">
-            SS Tube Mill
+            Products
           </a>
         </li>
         <li>
           <a href="http://localhost/front-end/stainless-steel-service-center.php">
-            SS Service Center
+            Quality Policy
           </a>
         </li>
         <li>
           <a href="http://localhost/front-end/stainless-steel/history.php">
-            Stainless Steel
+            Certificates
           </a>
         </li>
         <li>
           <a href="http://localhost/front-end/types-of-ss/classification.php">
-            Types of SS
+            Inspection System
+          </a>
+        </li>
+        <li>
+          <a href="http://localhost/front-end/types-of-ss/classification.php">
+            Weight Charts
+          </a>
+        </li>
+        <li>
+          <a href="http://localhost/front-end/types-of-ss/classification.php">
+            Applications
           </a>
         </li>
         <li class="lg:hidden">

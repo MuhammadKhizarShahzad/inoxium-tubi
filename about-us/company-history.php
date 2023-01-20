@@ -1,4 +1,11 @@
-<?php include_once("../header.php") ?>
+<?php include_once("../header.php");
+
+$about_links = [
+    "History" => $URL . "about-us/company-management.php",
+    "History1" => $URL . "about-us/company-management.php",
+    "History2" => $URL . "about-us/company-management.php",
+];
+?>
 <link rel="stylesheet" href="<?php echo $URL ?>assests/css/ken-burn.css">
 
 <!-- Banner Section -->
@@ -18,7 +25,7 @@
 <!-- Content Section -->
 <section class="flex md:items-center flex-col-reverse md:flex-row">
     <!-- Left Section -->
-    <div class="left-section md:pr-3 md:border-r border-black w-full md:w-3/4">
+    <div class="left-section md:pr-3 md:border-r border-black w-full md:w-9/12">
 
 
         <div class="scroll-section h-full md:h-64 overflow-y-auto ">
@@ -32,8 +39,7 @@
                     <span class="font-bold">ISO 9001:2015
                         <a href="<?php echo $URL ?>assests/imgs/about-banners/ISO-Certificate-9001-2015.pdf"
                             target="_blank" title="Company Management">
-                            <img src="<?php echo $URL ?>assests/imgs/about-banners/download-icon.jpg"
-                                class="m-auto">
+                            <img src="<?php echo $URL ?>assests/imgs/about-banners/download-icon.jpg" class="m-auto">
                         </a>
                     </span>
                 </div>
@@ -93,18 +99,26 @@
         </div>
     </div>
 
-    <div class="p-0 md:p-5 self-start w-full md:w-1/4">
+    <div class="p-0 md:p-5 self-start w-full md:w-3/12">
         <nav class="right-tabs">
             <ul class="flex flex-col divide > * bg-none border-0">
-                <li class="mb-1 border"><a href="<?php echo $URL ?>about-us/company-management.php"> Company
+
+                <?php foreach ($about_links as $k => $v) { ?>
+                    <li>
+                        <a class=" mb-1 border py-2 px-6" href="<?php echo $v ?>">
+                            <?php echo $k ?>
+                        </a>
+                    </li>
+                <?php } ?>
+
+                <!-- <li class="mb-1 border"><a href="<?php //echo $URL ?>about-us/company-management.php"> Company
                         Management</a></li>
-                <li class="mb-1 border"><a class="active"
-                        href="<?php echo $URL ?>about-us/company-history.php">
+                <li class="mb-1 border"><a class="active" href="<?php //echo $URL ?>about-us/company-history.php">
                         Company History</a></li>
-                <li class="mb border"><a
-                        href="<?php echo $URL ?>about-us/What-makes-Mideast-Metals-Special.php"> What makes
+                <li class="mb border"><a href="<?php //echo $URL ?>about-us/What-makes-Mideast-Metals-Special.php"> What
+                        makes
                         Mideast Metals Special</a>
-                </li>
+                </li> -->
             </ul>
         </nav>
     </div>

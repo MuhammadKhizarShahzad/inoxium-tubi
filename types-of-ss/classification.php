@@ -3,7 +3,7 @@
 <?php require("./slider.php") ?>
 
 <section class="flex md:items-center flex-col-reverse md:flex-row">
-  <div class="left-section md:pr-3 md:border-r border-black w-full md:w-9/12">
+  <div class="left-section md:pr-3 md:border-r border-black w-full md:w-3/4">
     <div class="scroll-section h-full md:h-64 overflow-y-auto">
       <h1>Classification</h1>
       <p class="text-sm">Stainless steels come in several types depending on their microstructure.</p>
@@ -68,7 +68,7 @@
     </div>
   </div>
 
-  <div class="p-0 md:p-5 md:pr-0 w-full md:w-3/12 mb-4 md:mb-0">
+  <div class="p-0 md:p-5 md:pr-0 w-full md:w-1/4 mb-4 md:mb-0">
     <nav class="right-tabs">
       <ul class="flex flex-col divide > * bg-none border-0">
         <li class="mb-1 border">

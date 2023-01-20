@@ -19,7 +19,7 @@ $URL .= $_SERVER['HTTP_HOST'].$DIR; //. $_SERVER['REQUEST_URI'];
   <title>Stainless Steel Stockists UAE-Pipes & Tubes-Stainless Steel Dubai</title>
 </head>
 
-<body class="container mx-auto px-6">
+<body class="container mx-auto">
   <header class="mb-4">
     <div class="relative flex justify-between items-center">
       <div class="logo">
@@ -30,7 +30,7 @@ $URL .= $_SERVER['HTTP_HOST'].$DIR; //. $_SERVER['REQUEST_URI'];
       <button class="mobile-nav-toggle" aria-controls="primary-navigation" style="z-index: 100">
         <span class="sr-only" aria-expanded="false">Menu</span>
       </button>
-      <div class="hidden lg:block">
+      <div class="hidden xl:block">
         <div>
           <ul data-visible="false" class="flex items-center gap-3 justify-end">
             <li>

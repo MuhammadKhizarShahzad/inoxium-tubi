@@ -5,15 +5,15 @@
 
   $nav_links = [
     "Home" => $URL,
-    "Managment" => $URL . "about-us/company-management.php",
-    "History" => $URL . "products.php",
-    "Factory Advantages" => $URL . "Stretcher-Leveler/coil-processing.php",
-    "Products" => $URL . "tube-mill.php",
-    "Quality Policy" => $URL . "stainless-steel-service-center.php",
-    "Certificates" => $URL . "stainless-steel/history.php",
-    "Inspection System" => $URL . "types-of-ss/classification.php",
-    "Weight Charts" => $URL . "types-of-ss/classification.php",
-    "Applications" => $URL . "types-of-ss/classification.php",
+    "Managment" => $URL . "management.php",
+    "History" => $URL . "history.php",
+    "Factory Advantages" => $URL . "factory-advantages.php",
+    "Products" => $URL . "products.php",
+    "Quality Policy" => $URL . "quality-policy.php",
+    "Certificates" => $URL . "certificates.php",
+    "Inspection System" => $URL . "inspection-system.php",
+    "Weight Charts" => $URL . "weight-charts.php",
+    "Applications" => $URL . "applications.php",
   ];
 
 ?>
@@ -73,7 +73,7 @@
           </ul>
         </div>
         <div class="xl:flex items-center gap-4 md:block">
-          <a href="<?php echo $URL ?>tube-mill.php">
+          <a href="https://www.mideastmetal.com/" target="_blank">
             <img class="w-64 md:w-80" src="<?php echo $URL ?>logo.jpg" alt="inoxiumtubi logo">
           </a>
           <!-- <ul class="flex divide-x lg:text-sm xl:text-base">

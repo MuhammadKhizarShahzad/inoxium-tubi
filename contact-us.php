@@ -19,7 +19,7 @@
 
             <!-- slide 1 -->
             <div class="child flex w-full bg-no-repeat bg-cover bg-left md:bg-center"
-                style='background-image: url("https://www.mideastmetal.com/items/gen/gen_10.jpg"); height: 316px'>
+                style='background-image: url("https://www.inoxiumtubi.com/items/gen/gen_10.jpg"); height: 316px'>
             </div>
         </div>
     </div>
@@ -40,7 +40,7 @@
           Fax: +971-4-8862932<br>
           Mob: +971-50-4843946/+971-50-4843944<br>
           <br>
-          Email: <a href="mailto:info@mideastmetal.com">info@mideastmetal.com</a><br>
+          Email: <a href="mailto:info@inoxiumtubi.com">info@inoxiumtubi.com</a><br>
         </p>
       </address>
     </div>

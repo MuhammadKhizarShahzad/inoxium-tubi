@@ -77,7 +77,7 @@
       </div>
     </div>
     <nav class="header-nav">
-      <ul class="flex lg:divide-x > * primary-navigation" data-visible="false" style="z-index: 99">
+      <ul class="flex lg:divide-x > * primary-navigation" data-visible="false" style="z-index: 9">
         <li>
           <a href="http://localhost/front-end/">
             Home

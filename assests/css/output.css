@@ -1108,10 +1108,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:block {
-    display: block;
-  }
-
   .lg\:hidden {
     display: none;
   }

@@ -7,7 +7,7 @@
 
             <!-- slide 1 -->
             <div class="child flex w-full bg-no-repeat bg-cover bg-left md:bg-center">
-                <img class="img_banner" src="http://localhost/front-end/assests/imgs/about-banners/gen_29.jpg" >
+                <img class="img_banner" src="<?php echo $URL ?>assests/imgs/about-banners/gen_29.jpg" >
             </div>
         </div>
     </div>
@@ -29,10 +29,10 @@
 
                 <div class="inner-right pt-5 md:pt-0 md:px-5">
                     <span class="font-bold">ISO 9001:2015
-                        <a href="http://localhost/front-end/assests/imgs/about-banners/ISO-Certificate-9001-2015.pdf"
+                        <a href="<?php echo $URL ?>assests/imgs/about-banners/ISO-Certificate-9001-2015.pdf"
                             target="_blank" title="Company Management">
                             <img class="md:m-auto"
-                                src="http://localhost/front-end/assests/imgs/about-banners/download-icon.jpg">
+                                src="<?php echo $URL ?>assests/imgs/about-banners/download-icon.jpg">
                         </a>
                     </span>
                 </div>
@@ -53,13 +53,13 @@
     <div class="p-0 md:p-5 self-start w-full md:w-1/4">
         <nav class="right-tabs">
             <ul class="flex flex-col divide > * bg-none border-0">
-                <li class="mb-1 border"><a class="active" href="http://localhost/front-end/about-us/company-management.php">
+                <li class="mb-1 border"><a class="active" href="<?php echo $URL ?>about-us/company-management.php">
                         Company
                         Management</a></li>
-                <li class="mb-1 border"><a href="http://localhost/front-end/about-us/company-history.php">
+                <li class="mb-1 border"><a href="<?php echo $URL ?>about-us/company-history.php">
                         Company History</a></li>
                 <li class="mb border"><a
-                        href="http://localhost/front-end/about-us/What-makes-Mideast-Metals-Special.php"> What makes
+                        href="<?php echo $URL ?>about-us/What-makes-Mideast-Metals-Special.php"> What makes
                         Mideast Metals Special</a>
                 </li>
             </ul>

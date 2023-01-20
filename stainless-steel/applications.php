@@ -23,14 +23,14 @@
         <li>Transportation (rail cars, Chemical transportation tanks).</li>
       </ul>
       <ul class="flex flex-wrap gap-4 justify-center md:justify-start">
-        <li><img src="http://localhost/front-end/assests/imgs/stainless-steel/04.jpg"></li>
-        <li><img src="http://localhost/front-end/assests/imgs/stainless-steel/06.jpg"></li>
-        <li><img src="http://localhost/front-end/assests/imgs/stainless-steel/07.jpg"></li>
-        <li><img src="http://localhost/front-end/assests/imgs/stainless-steel/08.jpg"></li>
-        <li><img src="http://localhost/front-end/assests/imgs/stainless-steel/09.jpg"></li>
-        <li><img src="http://localhost/front-end/assests/imgs/stainless-steel/12.jpg"></li>
-        <li><img src="http://localhost/front-end/assests/imgs/stainless-steel/13.jpg"></li>
-        <li><img src="http://localhost/front-end/assests/imgs/stainless-steel/14.jpg"></li>
+        <li><img src="<?php echo $URL ?>assests/imgs/stainless-steel/04.jpg"></li>
+        <li><img src="<?php echo $URL ?>assests/imgs/stainless-steel/06.jpg"></li>
+        <li><img src="<?php echo $URL ?>assests/imgs/stainless-steel/07.jpg"></li>
+        <li><img src="<?php echo $URL ?>assests/imgs/stainless-steel/08.jpg"></li>
+        <li><img src="<?php echo $URL ?>assests/imgs/stainless-steel/09.jpg"></li>
+        <li><img src="<?php echo $URL ?>assests/imgs/stainless-steel/12.jpg"></li>
+        <li><img src="<?php echo $URL ?>assests/imgs/stainless-steel/13.jpg"></li>
+        <li><img src="<?php echo $URL ?>assests/imgs/stainless-steel/14.jpg"></li>
       </ul>
     </div>
   </div>
@@ -38,32 +38,32 @@
     <nav class="right-tabs">
       <ul class="flex flex-col divide > * bg-none border-0">
         <li class="mb-1 border">
-          <a href="http://localhost/front-end/stainless-steel/history.php">
+          <a href="<?php echo $URL ?>stainless-steel/history.php">
             History
           </a>
         </li>
         <li class="mb-1 border">
-          <a href="http://localhost/front-end/stainless-steel/what-is-stainless-steel.php">
+          <a href="<?php echo $URL ?>stainless-steel/what-is-stainless-steel.php">
             What is Stainless Steel
           </a>
         </li>
         <li class="mb-1 border">
-          <a href="http://localhost/front-end/stainless-steel/benefits.php">
+          <a href="<?php echo $URL ?>stainless-steel/benefits.php">
             Benefits
           </a>
         </li>
         <li class="mb-1 border">
-          <a href="http://localhost/front-end/stainless-steel/alloying-elements.php">
+          <a href="<?php echo $URL ?>stainless-steel/alloying-elements.php">
             Alloying Elements
           </a>
         </li>
         <li class="mb-1 border">
-          <a class="active" href="http://localhost/front-end/stainless-steel/applications.php">
+          <a class="active" href="<?php echo $URL ?>stainless-steel/applications.php">
             Applications
           </a>
         </li>
         <li class="mb border">
-          <a href="http://localhost/front-end/stainless-steel/statistics-of-stainless-steel.php">
+          <a href="<?php echo $URL ?>stainless-steel/statistics-of-stainless-steel.php">
             Statistics of Stainless Steel
           </a>
         </li>

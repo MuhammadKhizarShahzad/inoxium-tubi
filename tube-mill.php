@@ -7,7 +7,7 @@
 
             <!-- slide 1 -->
             <div class="child flex w-full bg-no-repeat bg-cover bg-center"
-                style='background-image: url("http://localhost/front-end/assests/imgs/ss-tube-mill-imgs/sslbanner.jpg"); height: 154px'>
+                style='background-image: url("<?php echo $URL ?>assests/imgs/ss-tube-mill-imgs/sslbanner.jpg"); height: 154px'>
             </div>
         </div>
     </div>
@@ -16,7 +16,7 @@
 
 <!-- Content Section -->
 <section class="flex items-center bg-no-repeat bg-cover p-3"
-    style='background-image: url("http://localhost/front-end/assests/imgs/ss-tube-mill-imgs/pagebg.jpg");'>
+    style='background-image: url("<?php echo $URL ?>assests/imgs/ss-tube-mill-imgs/pagebg.jpg");'>
 
     <div>
         <h1 class="text-2xl text-white">SS TUBE MILL</h1>
@@ -83,7 +83,7 @@
             </div>
             <div class="w-full p-2">
                 <img class="w-full h-full object-cover"
-                    src="http://localhost/front-end/assests/imgs/ss-tube-mill-imgs/stainlesssteelroundcubeornamental.jpg">
+                    src="<?php echo $URL ?>assests/imgs/ss-tube-mill-imgs/stainlesssteelroundcubeornamental.jpg">
             </div>
         </div>
 
@@ -133,7 +133,7 @@
             </div>
             <div class="w-full p-2">
                 <img class="w-full h-full object-cover"
-                    src="http://localhost/front-end/assests/imgs/ss-tube-mill-imgs/STAINLESS-STEEL-SQUARE-TUBES-(ORNAMENTAL).jpg">
+                    src="<?php echo $URL ?>assests/imgs/ss-tube-mill-imgs/STAINLESS-STEEL-SQUARE-TUBES-(ORNAMENTAL).jpg">
             </div>
         </div>
 
@@ -183,7 +183,7 @@
             </div>
             <div class="w-full p-2">
                 <img class="w-full h-full object-cover"
-                    src="http://localhost/front-end/assests/imgs/ss-tube-mill-imgs/STAINLESS-STEEL-RECTANGLE-TUBES-(ORNAMENTAL).jpg">
+                    src="<?php echo $URL ?>assests/imgs/ss-tube-mill-imgs/STAINLESS-STEEL-RECTANGLE-TUBES-(ORNAMENTAL).jpg">
             </div>
         </div>
 
@@ -224,7 +224,7 @@
             </div>
             <div class="w-full p-2">
                 <img class="w-full h-full object-cover"
-                    src="http://localhost/front-end/assests/imgs/ss-tube-mill-imgs/STAINLESS-STEEL-ROUND-TUBES-(INDUSTRIAL).jpg">
+                    src="<?php echo $URL ?>assests/imgs/ss-tube-mill-imgs/STAINLESS-STEEL-ROUND-TUBES-(INDUSTRIAL).jpg">
             </div>
         </div>
     </div>

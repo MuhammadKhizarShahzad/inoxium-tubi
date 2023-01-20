@@ -1,6 +1,6 @@
 <?php include_once("header.php") ?>
 
-<img class="border-2" src="http://localhost/front-end/assests/imgs/gen_8.jpg" width="100%">
+<img class="border-2" src="<?php echo $URL ?>assests/imgs/gen_8.jpg" width="100%">
 
 <section class="mt-4">
   <h1>Useful Links</h1>

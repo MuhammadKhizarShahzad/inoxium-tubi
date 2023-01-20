@@ -1,5 +1,5 @@
 <?php include_once("header.php") ?>
-<img src="http://localhost/front-end/assests/imgs/gen_29.jpg" style="width: 100%;">
+<img src="<?php echo $URL ?>assests/imgs/gen_29.jpg" style="width: 100%;">
 <br>
 <h1>
   Disclaimer of Liability and Warranty

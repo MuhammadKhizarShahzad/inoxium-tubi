@@ -47,7 +47,7 @@
         <div class="scroll-section h-full md:h-64 overflow-y-auto ">
             <h1>Welcome To Mideast Metals FZCO</h1>
 
-            <p class="text-sm">Mideast Metals FZCO, an ISO 9001:2015 certified company, is one of GCC’s most
+            <p>Mideast Metals FZCO, an ISO 9001:2015 certified company, is one of GCC’s most
                 prominent&nbsp;<strong>Stainless Steel</strong>&nbsp;Stockholder, Service Center and Stainless
                 Steel TUBE MILL providing&nbsp;<strong>Stainless Steel</strong>&nbsp;to various industries in
                 the region. As a leading&nbsp;<strong>stainless steel stockholder,</strong>&nbsp;<strong>Service

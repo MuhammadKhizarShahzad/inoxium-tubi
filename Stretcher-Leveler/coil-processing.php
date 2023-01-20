@@ -40,17 +40,17 @@
     <nav class="right-tabs">
       <ul class="flex flex-col divide > * bg-none border-0">
         <li class="mb-1 border">
-          <a href="http://localhost/front-end/Stretcher-Leveler/Benefits-for-Fabricators.php">
+          <a href="<?php echo $URL ?>Stretcher-Leveler/Benefits-for-Fabricators.php">
             Benefits For Fabricators
           </a>
         </li>
         <li class="mb-1 border">
-          <a href="http://localhost/front-end/Stretcher-Leveler/Benefits-for-Laser-Cutters.php">
+          <a href="<?php echo $URL ?>Stretcher-Leveler/Benefits-for-Laser-Cutters.php">
             Benefits For Laser Cutters
           </a>
         </li>
         <li class="mb border">
-          <a href="http://localhost/front-end/Stretcher-Leveler/What-Leveling-is.php">
+          <a href="<?php echo $URL ?>Stretcher-Leveler/What-Leveling-is.php">
             What Leveling Is
           </a>
         </li>

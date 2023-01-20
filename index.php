@@ -14,26 +14,26 @@
         <div class="flex parent overflow-x-hidden">
             <!-- slide 1 -->
             <div class="child flex items-end bg-no-repeat bg-cover"
-                style='background-image: url("http://localhost/front-end/assests/imgs/home-banners/3fghzRKQ6XVs.jpg")'>
+                style='background-image: url("<?php echo $URL ?>assests/imgs/home-banners/3fghzRKQ6XVs.jpg")'>
                 <div class="bg-color p-3 mb-2">
                     <div class="mb-2"><span class="text-lg font-semibold">Stainless Steel Service Center</span></div>
-                    <h2><a href="http://localhost/front-end/stainless-steel-service-center.php">Read More</a></h2>
+                    <h2><a href="<?php echo $URL ?>stainless-steel-service-center.php">Read More</a></h2>
                 </div>
             </div>
             <!-- slide 2 -->
             <div class="child flex items-end bg-no-repeat bg-cover"
-                style='background-image: url("http://localhost/front-end/assests/imgs/home-banners/FXKvbq0SQrw4.png")'>
+                style='background-image: url("<?php echo $URL ?>assests/imgs/home-banners/FXKvbq0SQrw4.png")'>
                 <div class="bg-color p-3 mb-2">
                     <div class="mb-2"><span class="text-lg font-semibold">SS TUBE MILL</span></div>
-                    <h2><a href="http://localhost/front-end/tube-mill.php">Read More</a></h2>
+                    <h2><a href="<?php echo $URL ?>tube-mill.php">Read More</a></h2>
                 </div>
             </div>
             <!-- slide 3 -->
             <div class="child flex items-end bg-no-repeat bg-cover"
-                style='background-image: url("http://localhost/front-end/assests/imgs/home-banners/kJY8LRrtwsZS.jpg")'>
+                style='background-image: url("<?php echo $URL ?>assests/imgs/home-banners/kJY8LRrtwsZS.jpg")'>
                 <div class="bg-color p-3 mb-2">
                     <div class="mb-2"><span class="text-lg font-semibold">Stainless Steel Supply</span></div>
-                    <h2><a href="http://localhost/front-end/about-us/company-management.php">Read More</a></h2>
+                    <h2><a href="<?php echo $URL ?>about-us/company-management.php">Read More</a></h2>
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@
                         Line</span></strong>: Introducing the Ultimate American technology to produce
                 <strong>Laser flat sheets</strong> in the continent Asia, the first ever Stainless steel <a
                     title="Stretcher Leveler" class="text-blue-600"
-                    href="http://localhost/front-end/Stretcher-Leveler/Benefits-for-Fabricators.php"><em><strong><span>STRETCHER
+                    href="<?php echo $URL ?>Stretcher-Leveler/Benefits-for-Fabricators.php"><em><strong><span>STRETCHER
                                 LEVELER</span></strong></em></a> in Asia which can process coils up to 8mm. For
                 the population of more than 4 billion across 50 countries, there is only one <strong>STRETCHER
                     LEVELER</strong> giving laser flat sheets which stay flat even after laser cutting,
@@ -100,7 +100,7 @@
                 level”.<br>
             </p>
         </div>
-        <div class="text-right"><a href="http://localhost/front-end/about-us/company-management.php">Read More</a></div>
+        <div class="text-right"><a href="<?php echo $URL ?>about-us/company-management.php">Read More</a></div>
     </div>
 
     <!-- Right Section -->

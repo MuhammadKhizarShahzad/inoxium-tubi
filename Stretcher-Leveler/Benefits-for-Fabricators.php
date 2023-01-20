@@ -11,37 +11,37 @@
             <p class="text-sm">• Material stays flat after folding and punching</p><br>
             <div class="flex flex-col md:flex-row">
                 <img class="md:w-1/4 mb-4 md:mb-0 md:mr-4"
-                    src="http://localhost/front-end/assests/imgs/stretcher-leveler-imgs/160320%20steel%20bending%20and%20punching.jpg">
+                    src="<?php echo $URL ?>assests/imgs/stretcher-leveler-imgs/160320%20steel%20bending%20and%20punching.jpg">
                   
                 <img class="md:w-1/4"
-                    src="http://localhost/front-end/assests/imgs/stretcher-leveler-imgs/160320%20steel-container2.jpg">
+                    src="<?php echo $URL ?>assests/imgs/stretcher-leveler-imgs/160320%20steel-container2.jpg">
             </div><br>
             <p class="text-sm">• Need for rework from warping, eliminated</p><br>
             <div class="flex flex-col md:flex-row">
                 <img class="md:w-1/4 mb-4 md:mb-0 md:mr-4"
-                    src="http://localhost/front-end/assests/imgs/stretcher-leveler-imgs/160320%20plasma_cutting.jpg">
+                    src="<?php echo $URL ?>assests/imgs/stretcher-leveler-imgs/160320%20plasma_cutting.jpg">
                   
                 <img class="md:w-1/4"
-                    src="http://localhost/front-end/assests/imgs/stretcher-leveler-imgs/160320%20PLASMA2.JPG">
+                    src="<?php echo $URL ?>assests/imgs/stretcher-leveler-imgs/160320%20PLASMA2.JPG">
             </div><br>
             <p class="text-sm">• No tensile spring back. Fold/bend material just once to achieve desired angle</p><br>
             <div class="flex flex-col md:flex-row">
                 <img class="md:w-1/4 mb-4 md:mb-0 md:mr-4"
-                    src="http://localhost/front-end/assests/imgs/stretcher-leveler-imgs/160315%20spring%20back1.jpg">
+                    src="<?php echo $URL ?>assests/imgs/stretcher-leveler-imgs/160315%20spring%20back1.jpg">
                   
                 <img class="md:w-1/4"
-                    src="http://localhost/front-end/assests/imgs/stretcher-leveler-imgs/160320%20Bent%20steel%20plates.jpg">
+                    src="<?php echo $URL ?>assests/imgs/stretcher-leveler-imgs/160320%20Bent%20steel%20plates.jpg">
             </div><br>
             <p class="text-sm">• Save time from unnecessary rework</p><br>
             <div class="flex flex-col md:flex-row">
                 <img class="md:w-1/4"
-                    src="http://localhost/front-end/assests/imgs/stretcher-leveler-imgs/160320%20plasma%20cutting%20sheet%20metal.jpg">
+                    src="<?php echo $URL ?>assests/imgs/stretcher-leveler-imgs/160320%20plasma%20cutting%20sheet%20metal.jpg">
                   
             </div><br>
             <p class="text-sm">• Process will not change mechanical properties</p><br>
             <div class="flex">
                 <img class="md:w-5/12"
-                    src="http://localhost/front-end/assests/imgs/stretcher-leveler-imgs/160320%20mechanical%20properties%20of%20ss.png">
+                    src="<?php echo $URL ?>assests/imgs/stretcher-leveler-imgs/160320%20mechanical%20properties%20of%20ss.png">
             </div><br>
         </div>
     </div>
@@ -51,17 +51,17 @@
         <nav class="right-tabs">
             <ul class="flex flex-col divide > * bg-none border-0">
                 <li class="mb-1 border">
-                    <a class="active" href="http://localhost/front-end/Stretcher-Leveler/Benefits-for-Fabricators.php">
+                    <a class="active" href="<?php echo $URL ?>Stretcher-Leveler/Benefits-for-Fabricators.php">
                         Benefits For Fabricators
                     </a>
                 </li>
                 <li class="mb-1 border">
-                    <a href="http://localhost/front-end/Stretcher-Leveler/Benefits-for-Laser-Cutters.php">
+                    <a href="<?php echo $URL ?>Stretcher-Leveler/Benefits-for-Laser-Cutters.php">
                         Benefits For Laser Cutters
                     </a>
                 </li>
                 <li class="mb border">
-                    <a href="http://localhost/front-end/Stretcher-Leveler/What-Leveling-is.php">
+                    <a href="<?php echo $URL ?>Stretcher-Leveler/What-Leveling-is.php">
                         What Leveling Is
                     </a>
                 </li>

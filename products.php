@@ -194,7 +194,7 @@
             Also available are Long Products in Stainless Steel including: Stainless Steel Round Bars, Stainless
             Steel Flat Bars, Stainless Steel Angles.<br>
             <h2>No. 1 Finish</h2>
-            <img src="http://localhost/front-end/assests/imgs/products-imgs/gen-contact-image-thumb-18.jpg" alt="">
+            <img src="<?php echo $URL ?>assests/imgs/products-imgs/gen-contact-image-thumb-18.jpg" alt="">
             <p><strong>No. 1 Finish:</strong> is produced by rolling stainless steel that has been heated prior to
                 rolling (hot-rolling). This is followed by a heat treatment that produces a uniform microstructure
                 (annealing) and ensures that the stainless steel will meet mechanical property requirements. After
@@ -211,7 +211,7 @@
                 turbine parts, Heat exchanger baffles, Heat exchanger tubing supports, Incinerators, Industrial oven
                 liners, Kiln liners, Oil burner parts, Recuperators, Refineries, Tube hangers.</p>
             <h2>2B Finish</h2>
-            <img src="http://localhost/front-end/assests/imgs/products-imgs/gen-contact-image-thumb-19.jpg" alt="">
+            <img src="<?php echo $URL ?>assests/imgs/products-imgs/gen-contact-image-thumb-19.jpg" alt="">
             <p><strong>2B Finish:</strong> is a bright cold rolled finish commonly produced in the same manner as
                 No. 2D, except that the final light cold rolling pass is done using polished rolls. This produces a
                 more reflective finish that resembles a cloudy mirror. Finish reflectivity can vary from
@@ -225,7 +225,7 @@
                 metal products, Small tanks, Solar collector panels, Vacuum drum dryers, Waste fuel pool liners,
                 Wheel covers.</p>
             <h2>Bright Annealed</h2>
-            <img src="http://localhost/front-end/assests/imgs/products-imgs/gen-contact-image-thumb-20.jpg" alt="">
+            <img src="<?php echo $URL ?>assests/imgs/products-imgs/gen-contact-image-thumb-20.jpg" alt="">
             <p><strong>Bright Annealed:</strong> is produced by heat-treating (annealing) in a controlled atmosphere
                 furnace. It has a mirror like appearance but may have some cloudiness and other imperfections. A
                 finish that is designated “BA” has only been bright annealed. A finish that is designated “2BA” has
@@ -240,7 +240,7 @@
                 hardware, Highway truck trailers, Mass transit cars, Radiant heaters, Range hoods, Scientific
                 apparatus, Surgical instruments, Textile finishing equipment.</p>
             <h2>No. 4 Finish:</h2>
-            <img src="http://localhost/front-end/assests/imgs/products-imgs/gen-contact-image-thumb-21.jpg" alt="">
+            <img src="<?php echo $URL ?>assests/imgs/products-imgs/gen-contact-image-thumb-21.jpg" alt="">
             <p>No. 4 Finish: Finish is characterized by short, parallel polishing lines, which extend uniformly
                 along the length of the coil. It is obtained by mechanically polishing a No. 3 finish with gradually
                 finer abrasives. Depending on the requirements of the application, the final finish can be anywhere
@@ -257,7 +257,7 @@
                 panels, Kitchen equipment, Luggage handling equipment, Mass transit equipment, Restaurant equipment,
                 Sinks, Sterilizers, Storefronts, Water fountains.</p>
             <h2>No. 8 Finish</h2>
-            <img src="http://localhost/front-end/assests/imgs/products-imgs/gen-contact-image-thumb-22.jpg" alt="">
+            <img src="<?php echo $URL ?>assests/imgs/products-imgs/gen-contact-image-thumb-22.jpg" alt="">
             <p><strong>No. 8 Finish:</strong> is the most reflective polished finish that is covered by the ASTM
                 standards. It is produced in the same manner as the No. 7 finish except that the buffing is
                 continued for an additional five to ten minutes. In comparison to a No. 7 finish, the grit lines are

@@ -51,7 +51,7 @@
                     </p>
                 </div>
                 <div class="w-1/3">
-                    <img src="http://localhost/front-end/assests/imgs/stretcher-leveler-imgs/new1.jpg" alt="">
+                    <img src="<?php echo $URL ?>assests/imgs/stretcher-leveler-imgs/new1.jpg" alt="">
                     <p class="text-xs">While the material may appear to be flat and at rest, portions of the strip are
                         hung up on the stress-strain curve and are actually under tension.</p>
                 </div>
@@ -76,7 +76,7 @@
             </p><br>
 
             <h3>ROLLER LEVELERS</h3>
-            <img src="http://localhost/front-end/assests/imgs/stretcher-leveler-imgs/160315%20ROLLER%20LEVELER.jpg"
+            <img src="<?php echo $URL ?>assests/imgs/stretcher-leveler-imgs/160315%20ROLLER%20LEVELER.jpg"
                 width="200px" alt=""><br>
 
             <div class="flex">
@@ -97,7 +97,7 @@
                     </p>
                 </div>
                 <div class="w-1/3">
-                    <img src="http://localhost/front-end/assests/imgs/stretcher-leveler-imgs/new2.jpg" alt="">
+                    <img src="<?php echo $URL ?>assests/imgs/stretcher-leveler-imgs/new2.jpg" alt="">
                     <p class="text-xs">The sheet illustrates a part before leveling. The stress-strain curve illustrates
                         which portions of the sheet are stretched first and the greatest amount while also indicating
                         the portions of the material that have not been stretched past their yield point.</p>
@@ -124,7 +124,7 @@
             </p>
 
             <h3>TEMPER MILLS</h3>
-            <img src="http://localhost/front-end/assests/imgs/stretcher-leveler-imgs/160315%20TEMPER%20MILL.jpg"
+            <img src="<?php echo $URL ?>assests/imgs/stretcher-leveler-imgs/160315%20TEMPER%20MILL.jpg"
                 width="200px" alt=""><br>
 
             <div class="flex">
@@ -143,7 +143,7 @@
                     </p>
                 </div>
                 <div class="w-1/3">
-                    <img src="http://localhost/front-end/assests/imgs/stretcher-leveler-imgs/new3.jpg" alt="">
+                    <img src="<?php echo $URL ?>assests/imgs/stretcher-leveler-imgs/new3.jpg" alt="">
                     <p class="text-xs">By squeezing the material between two rolls with enough force, the strip is
                         slightly elongated.</p>
                 </div>
@@ -183,7 +183,7 @@
                     </p>
                 </div>
                 <div class="w-1/3">
-                    <img src="http://localhost/front-end/assests/imgs/stretcher-leveler-imgs/new4.jpg" alt="">
+                    <img src="<?php echo $URL ?>assests/imgs/stretcher-leveler-imgs/new4.jpg" alt="">
                     <p class="text-xs">While some portions of the strip are stretched more than others, all of the
                         material has exceeded its yield point and will “spring back” consistently.</p>
                 </div>
@@ -234,17 +234,17 @@
         <nav class="right-tabs">
             <ul class="flex flex-col divide > * bg-none border-0">
                 <li class="mb-1 border">
-                    <a href="http://localhost/front-end/Stretcher-Leveler/Benefits-for-Fabricators.php">
+                    <a href="<?php echo $URL ?>Stretcher-Leveler/Benefits-for-Fabricators.php">
                         Benefits For Fabricators
                     </a>
                 </li>
                 <li class="mb-1 border">
-                    <a href="http://localhost/front-end/Stretcher-Leveler/Benefits-for-Laser-Cutters.php">
+                    <a href="<?php echo $URL ?>Stretcher-Leveler/Benefits-for-Laser-Cutters.php">
                         Benefits For Laser Cutters
                     </a>
                 </li>
                 <li class="mb border">
-                    <a class="active" href="http://localhost/front-end/Stretcher-Leveler/What-Leveling-is.php">
+                    <a class="active" href="<?php echo $URL ?>Stretcher-Leveler/What-Leveling-is.php">
                         What Leveling Is
                     </a>
                 </li>

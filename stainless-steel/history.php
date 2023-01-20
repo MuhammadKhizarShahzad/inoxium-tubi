@@ -22,32 +22,32 @@
     <nav class="right-tabs">
       <ul class="flex flex-col divide > * bg-none border-0">
         <li class="mb-1 border">
-          <a class="active" href="http://localhost/front-end/stainless-steel/history.php">
+          <a class="active" href="<?php echo $URL ?>stainless-steel/history.php">
             History
           </a>
         </li>
         <li class="mb-1 border">
-          <a href="http://localhost/front-end/stainless-steel/what-is-stainless-steel.php">
+          <a href="<?php echo $URL ?>stainless-steel/what-is-stainless-steel.php">
             What is Stainless Steel
           </a>
         </li>
         <li class="mb-1 border">
-          <a href="http://localhost/front-end/stainless-steel/benefits.php">
+          <a href="<?php echo $URL ?>stainless-steel/benefits.php">
             Benefits
           </a>
         </li>
         <li class="mb-1 border">
-          <a href="http://localhost/front-end/stainless-steel/alloying-elements.php">
+          <a href="<?php echo $URL ?>stainless-steel/alloying-elements.php">
             Alloying Elements
           </a>
         </li>
         <li class="mb-1 border">
-          <a href="http://localhost/front-end/stainless-steel/applications.php">
+          <a href="<?php echo $URL ?>stainless-steel/applications.php">
             Applications
           </a>
         </li>
         <li class="mb border">
-          <a href="http://localhost/front-end/stainless-steel/statistics-of-stainless-steel.php">
+          <a href="<?php echo $URL ?>stainless-steel/statistics-of-stainless-steel.php">
             Statistics of Stainless Steel
           </a>
         </li>

@@ -6,57 +6,57 @@
       </a>
     </li>
     <li class="md:border-r border-indigo-500 px-2 w-1/2 md:w-auto text-center">
-      <a href="http://localhost/front-end/about-us/company-management.php">
+      <a href="<?php echo $URL ?>about-us/company-management.php">
         About Us
       </a>
     </li>
     <li class="border-r border-indigo-500 px-2 w-1/2 md:w-auto text-center">
-      <a href="http://localhost/front-end/products.php">
+      <a href="<?php echo $URL ?>products.php">
         Products
       </a>
     </li>
     <li class="md:border-r border-indigo-500 px-2 w-1/2 md:w-auto text-center">
-      <a href="http://localhost/front-end/Stretcher-Leveler/coil-processing.php">
+      <a href="<?php echo $URL ?>Stretcher-Leveler/coil-processing.php">
         Stretcher Levler
       </a>
     </li>
     <li class="border-r border-indigo-500 px-2 w-1/2 md:w-auto text-center">
-      <a href="http://localhost/front-end/tube-mill.php">
+      <a href="<?php echo $URL ?>tube-mill.php">
         SS Tube Mill
       </a>
     </li>
     <li class="md:border-r border-indigo-500 px-2 w-1/2 md:w-auto text-center">
-      <a href="http://localhost/front-end/stainless-steel-service-center.php">
+      <a href="<?php echo $URL ?>stainless-steel-service-center.php">
         SS Service Center
       </a>
     </li>
     <li class="border-r border-indigo-500 px-2 w-1/2 md:w-auto text-center">
-      <a href="http://localhost/front-end/stainless-steel/history.php">
+      <a href="<?php echo $URL ?>stainless-steel/history.php">
         Stainless Steel
       </a>
     </li>
     <li class="md:border-r border-indigo-500 px-2 w-1/2 md:w-auto text-center">
-      <a href="http://localhost/front-end/types-of-ss/classification.php">
+      <a href="<?php echo $URL ?>types-of-ss/classification.php">
         Types of SS
       </a>
     </li>
     <li class="border-r border-indigo-500 px-2 w-1/2 md:w-auto text-center">
-      <a href="http://localhost/front-end/useful-links.php">
+      <a href="<?php echo $URL ?>useful-links.php">
         Useful Links
       </a>
     </li>
     <li class="md:border-r border-indigo-500 px-2 w-1/2 md:w-auto text-center">
-      <a href="http://localhost/front-end/photo-gallery.php">
+      <a href="<?php echo $URL ?>photo-gallery.php">
         Photo Gallery
       </a>
     </li>
     <li class="border-r border-indigo-500 px-2 w-1/2 md:w-auto text-center">
-      <a href="http://localhost/front-end/contact-us.php">
+      <a href="<?php echo $URL ?>contact-us.php">
         Contact Us
       </a>
     </li>
     <li class="px-2 w-1/2 md:w-auto text-center">
-      <a href="http://localhost/front-end/disclaimer.php">
+      <a href="<?php echo $URL ?>disclaimer.php">
         Disclaimer
       </a>
     </li>
@@ -65,7 +65,7 @@
     <p class="text-xs md:text-base copyright">© Copyrights Mideast Metals FZCO. 2018, All rights reserved.</p>
     <div class="logo">
       <a href="http://www.superiormetals.ae/" target="_blank">
-        <img src="http://localhost/front-end/f-logo.jpg" alt="superiormetals logo">
+        <img src="<?php echo $URL ?>f-logo.jpg" alt="superiormetals logo">
       </a>
     </div>
   </div>

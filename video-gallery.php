@@ -8,7 +8,7 @@
 
             <!-- slide 1 -->
             <div class="child flex w-full bg-no-repeat bg-cover bg-left md:bg-center"
-                style='background-image: url("http://localhost/front-end/assests/imgs/gen_29.jpg"); height: 316px'>
+                style='background-image: url("<?php echo $URL ?>assests/imgs/gen_29.jpg"); height: 316px'>
             </div>
         </div>
     </div>

@@ -650,6 +650,10 @@ video {
   table-layout: auto;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .list-disc {
   list-style-type: disc;
 }
@@ -845,6 +849,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .pt-3 {
   padding-top: 0.75rem;
 }
@@ -875,6 +884,10 @@ video {
 
 .pl-1 {
   padding-left: 0.25rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
 }
 
 .text-center {

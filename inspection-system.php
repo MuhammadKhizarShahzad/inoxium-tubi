@@ -28,7 +28,7 @@
         </li>
         <img src="<?php echo $URL ?>assests/imgs/inspection-system/inspection-img-1.png">
       </ul>
-    </li>
+    </li><br/>
     <li class="text-md font-semibold">
       Chemical Analysis:
       <p class="font-normal">
@@ -36,7 +36,7 @@
         that determines the chemical composition of a material.
       </p>
       <img src="<?php echo $URL ?>assests/imgs/inspection-system/inspection-img-2.jpg">
-    </li>
+    </li><br/>
     <li class="text-md font-semibold">
       Hardness Test:
       <p class="font-normal">
@@ -45,14 +45,14 @@
         is one of them.
       </p>
       <img src="<?php echo $URL ?>assests/imgs/inspection-system/inspection-img-3.jpg">
-    </li>
+    </li><br/>
     <li class="text-md font-semibold">
       Metallurgical Micro Scope:
       <p class="font-normal">
         Involves grain structure examination as per specification. Optical Microscope • Etching Test • Feritscope.
       </p>
       <img src="<?php echo $URL ?>assests/imgs/inspection-system/inspection-img-4.png">
-    </li>
+    </li><br/>
     <li class="text-md font-semibold">
       Leak Test:
       <p class="font-normal">
@@ -63,19 +63,19 @@
         and serve as a final validation of the insight of the constructed system.
       </p>
       <img src="<?php echo $URL ?>assests/imgs/inspection-system/inspection-img-5.jpg">
-    </li>
+    </li><br/>
     <li class="text-md font-semibold">
     	Double Disk Grinding:
       <p class="font-normal">
         Single 200 mm diameter disc polisher with variable speed facility for polishing of test pcs.
       </p>
       <img src="<?php echo $URL ?>assests/imgs/inspection-system/inspection-img-6.jpg">
-    </li>
+    </li><br/>
     <li class="text-md font-semibold">
     	Dial Vernier Calliper:
       <p class="font-normal">Measure diameter & thickness of the tubes & pipe.</p>
       <img src="<?php echo $URL ?>assests/imgs/inspection-system/inspection-img-7.jpg">
-    </li>
+    </li><br/>
     <li class="text-md font-semibold">
     	Surface Condition:
       <p class="font-normal">

@@ -22,7 +22,7 @@ $footer_links = [
       if($count%2 != 0){
         $border = "border-r border-indigo-500";
       }else{
-        $border = "";
+        $border = "md:border-r border-indigo-500";
       }
       ?>
       <li class="w-1/2 md:w-auto px-2 <?php echo $border ?>">

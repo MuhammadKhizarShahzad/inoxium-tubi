@@ -92,18 +92,18 @@
   <div class="p-0 md:p-5 md:pr-0 w-full md:w-1/4 mb-4 md:mb-0">
     <nav class="right-tabs">
       <ul class="flex flex-col divide > * bg-none border-0">
-        <li class="mb-1 border" onclick="index(0)">
-          <a class="active">
+        <li class="mb-1 border cursor-pointer" onclick="index(0)">
+          <a class="active px-4 py-3">
             Stainless Steel Industrial Pipes 
           </a>
         </li>
-        <li class="mb-1 border" onclick="index(1)">
-          <a>
+        <li class="mb-1 border cursor-pointer" onclick="index(1)">
+          <a class="px-4 py-3">
             Stainless Steel Oonamental Tubes Application
           </a>
         </li>
-        <li class="mb border" onclick="index(2)">
-          <a>
+        <li class="mb border cursor-pointer" onclick="index(2)">
+          <a class="px-4 py-3">
           	INDUSTRIES SERVED
           </a>
         </li>

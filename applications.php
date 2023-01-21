@@ -67,42 +67,22 @@
     <h1 class="text-2xl">Applications</h1>
     <h2 class="heading"></h2>
     <ul class="list-disc pl-5"></ul>
-
-    <script defer>
-      let i = 0;
-      const ul = document.querySelector(".list-disc");
-      const h2 = document.querySelector(".heading");
-
-      h2.innerHTML = `${data[i].heading}`
-      let listData = data[i].list;
-      for (let i = 0; i < listData.length; i++)
-        ul.innerHTML += `<li>${listData[i]}</li>`;
-
-      const index = (inc) => {
-        i = inc;
-        listData = data[i].list;
-        h2.innerHTML = `${data[i].heading}`
-        ul.innerHTML = "";
-        for (let i = 0; i < listData.length; i++)
-          ul.innerHTML += `<li>${listData[i]}</li>`;
-      }
-    </script>
   </div>
 
   <div class="p-0 md:p-5 md:pr-0 w-full md:w-1/4 mb-4 md:mb-0">
     <nav class="right-tabs">
-      <ul class="flex flex-col divide > * bg-none border-0">
-        <li class="mb-1 border cursor-pointer" onclick="index(0)">
+      <ul class="right-side flex flex-col divide > * bg-none border-0">
+        <li class="mb-1 border cursor-pointer" data-index="0" onclick="index(0)">
           <a class="active px-4 py-3">
             Stainless Steel Industrial Pipes 
           </a>
         </li>
-        <li class="mb-1 border cursor-pointer" onclick="index(1)">
+        <li class="mb-1 border cursor-pointer" data-index="1" onclick="index(1)">
           <a class="px-4 py-3">
             Stainless Steel Oonamental Tubes Application
           </a>
         </li>
-        <li class="mb border cursor-pointer" onclick="index(2)">
+        <li class="mb border cursor-pointer" data-index="2" onclick="index(2)">
           <a class="px-4 py-3">
           	INDUSTRIES SERVED
           </a>
@@ -111,6 +91,34 @@
     </nav>
   </div>
 </section>
+
+
+<script defer>
+  let i = 0;
+  const h2 = document.querySelector(".heading");
+  const ul = document.querySelector(".list-disc");
+  const lis = document.querySelectorAll(".right-side li");
+
+  h2.textContent = data[i].heading;
+  let listData = data[i].list;
+  for (let i = 0; i < listData.length; i++)
+    ul.innerHTML += `<li>${listData[i]}</li>`;
+
+  const index = (inc) => {
+    lis.forEach(li => {
+      if (Number(li.dataset.index) === inc)
+        li.firstElementChild.classList.add("active");
+       else
+       li.firstElementChild.classList.remove("active");
+    });
+    i = inc;
+    listData = data[i].list;
+    h2.textContent = data[i].heading;
+    ul.innerHTML = "";
+    for (let i = 0; i < listData.length; i++)
+      ul.innerHTML += `<li>${listData[i]}</li>`;
+  }
+</script>
 
 <!-- <link href="<?php echo $URL ?>assests/css/slider.css" rel="stylesheet">
 <link href="<?php echo $URL ?>assests/css/ken-burn.css" rel="stylesheet">

@@ -1,18 +1,5 @@
 <?php include_once("header.php") ?>
 
-<!-- Banner Section -->
-<section class="mb-4">
-    <div class="main-top-banner border-b-2 border-black relative">
-        <div class="flex parent overflow-x-hidden">
-            <!-- slide 1 -->
-            <div class="child flex w-full bg-no-repeat bg-cover bg-left md:bg-center">
-                <img class="img_banner" src="<?php echo $URL ?>assests/imgs/about-banners/gen_29.jpg">
-            </div>
-        </div>
-    </div>
-</section>
-
-
 <!-- Content Section -->
 <section class="flex md:items-center flex-col-reverse md:flex-row">
     <!-- Left Section -->
@@ -24,14 +11,14 @@
                     <h1 class="lft">Company Management</h1>
                 </div>
 
-                <div class="inner-right pt-5 md:pt-0 md:px-5">
+                <!-- <div class="inner-right pt-5 md:pt-0 md:px-5">
                     <span class="font-bold">ISO 9001:2015
-                        <a href="<?php echo $URL ?>assests/imgs/about-banners/ISO-Certificate-9001-2015.pdf"
+                        <a href="<?php // echo $URL ?>assests/imgs/about-banners/ISO-Certificate-9001-2015.pdf"
                             target="_blank" title="Company Management">
-                            <img class="md:m-auto" src="<?php echo $URL ?>assests/imgs/about-banners/download-icon.jpg">
+                            <img class="md:m-auto" src="<?php // echo $URL ?>assests/imgs/about-banners/download-icon.jpg">
                         </a>
                     </span>
-                </div>
+                </div> -->
             </div>
             <p>The reigns of Inoxium Tubi are held by descendants’ of the Khawaja family, whose proficiency in the trade
                 can be traced back to over a 140 years. What more decisive factor would one require to gauge the

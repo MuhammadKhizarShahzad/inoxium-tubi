@@ -44,7 +44,7 @@
 <section class="flex md:items-center flex-col md:flex-row w-full">
     <!-- Left Section -->
     <div class="left-section pt-3 pr-3">
-        <div class="scroll-section h-full md:h-64  ">
+        <div class="scroll-section">
             <h1>Welcome To inoxiumtubi</h1>
 
             <p>We, Inoxium Tubi, are the manufacturers of Stainless Steel Pipes & Tubes and belongs to Mideast Metals

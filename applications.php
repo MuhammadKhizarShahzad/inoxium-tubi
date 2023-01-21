@@ -62,7 +62,7 @@
   ]
 </script>
 
-<section class="flex md:items-center flex-col-reverse md:flex-row">
+<section class="flex md:items-start flex-col-reverse md:flex-row">
   <div class="left-section md:pr-3 md:border-r border-black w-full md:w-3/4">
     <h1 class="text-2xl">Applications</h1>
     <h2 class="heading"></h2>

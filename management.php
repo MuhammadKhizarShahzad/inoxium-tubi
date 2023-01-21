@@ -1,18 +1,5 @@
 <?php include_once("header.php") ?>
 
-<!-- Banner Section -->
-<section class="mb-4">
-    <div class="main-top-banner border-b-2 border-black relative">
-        <div class="flex parent overflow-x-hidden">
-            <!-- slide 1 -->
-            <div class="child flex w-full bg-no-repeat bg-cover bg-left md:bg-center">
-                <img class="img_banner" src="<?php echo $URL ?>assests/imgs/about-banners/gen_29.jpg">
-            </div>
-        </div>
-    </div>
-</section>
-
-
 <!-- Content Section -->
 <section class="flex md:items-center flex-col-reverse md:flex-row">
     <!-- Left Section -->

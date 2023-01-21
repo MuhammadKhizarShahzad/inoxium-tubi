@@ -1,5 +1,5 @@
 <?php include_once("header.php") ?>
-<?php require("./stainless-steel-service-center/slider.php") ?>
+
 
 <section class="scroll-section overflow-y-auto">
 

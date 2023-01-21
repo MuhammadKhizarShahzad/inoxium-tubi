@@ -4,11 +4,11 @@
 <section class="scroll-section h-full md:h-64 overflow-y-auto">
 
   <h1>SS Service Center</h1>
-  <a class="text-blue-600 text-sm md:text-base" href="https://www.inoxiumtubi.com/Stretcher-Leveler-Video-Presentation"
+  <a class="text-blue-600  md:text-base" href="https://www.inoxiumtubi.com/Stretcher-Leveler-Video-Presentation"
     target="_blank">Watch Stretcher Leveler
     Video Presentation ▶</a><br>
   &nbsp;<br>
-  <p class="text-sm">
+  <p>
     Established in 2012, the Fully Integrated State of the Art Stainless Steel Service Center started successfully it’s
     operation and is producing very high quality processed<br> material. The Service Center has the processing
     machineries
@@ -22,7 +22,7 @@
     shearing operations.<br>
     Max coil weight: 20 MT<br> Thickness: 0.50mm to 8.00mm<br> Max Width: 1829mm<br> Edge slitting can be done for Mill
     edge coils.<br> <br><strong><br>2. Coil to Coil Polishing Line:</strong><br>
-    <a class="text-blue-600 text-sm md:text-base"
+    <a class="text-blue-600  md:text-base"
       href="https://www.inoxiumtubi.com/Coil-To-Coil-Polishing-And-Coil-Processing-Video-Presentation"
       target="_blank">Watch Coil to Coil Polishing and Coil Processing Video Presentation ▶</a><br>
     &nbsp;<br>

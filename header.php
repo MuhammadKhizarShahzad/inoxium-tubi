@@ -5,15 +5,15 @@
 
   $nav_links = [
     "Home" => $URL,
-    "Managment" => $URL . "about-us/company-management.php",
-    "History" => $URL . "products.php",
-    "Factory Advantages" => $URL . "Stretcher-Leveler/coil-processing.php",
-    "Products" => $URL . "tube-mill.php",
-    "Quality Policy" => $URL . "stainless-steel-service-center.php",
-    "Certificates" => $URL . "stainless-steel/history.php",
-    "Inspection System" => $URL . "types-of-ss/classification.php",
-    "Weight Charts" => $URL . "types-of-ss/classification.php",
-    "Applications" => $URL . "types-of-ss/classification.php",
+    "Managment" => $URL . "management.php",
+    "History" => $URL . "history.php",
+    "Factory Advantages" => $URL . "factory-advantages.php",
+    "Products" => $URL . "products.php",
+    "Quality Policy" => $URL . "quality-policy.php",
+    "Certificates" => $URL . "certificates.php",
+    "Inspection System" => $URL . "inspection-system.php",
+    "Weight Charts" => $URL . "weight-charts.php",
+    "Applications" => $URL . "applications.php",
   ];
 
 ?>
@@ -33,12 +33,12 @@
   <title>Stainless Steel Stockists UAE-Pipes & Tubes-Stainless Steel Dubai</title>
 </head>
 
-<body class="xl:container mx-auto px-6">
+<body class="xl:container xl:mx-auto px-6">
   <header class="my-4">
     <div class="relative flex justify-between items-center">
       <div class="logo">
         <a href="<?php echo $URL ?>">
-          <img src="<?php echo $URL ?>inoxium.png" alt="inoxium logo">
+          <img class="w-72 sm:w-full" src="<?php echo $URL ?>inoxium.png" alt="inoxium logo">
         </a>
       </div>
       <button class="mobile-nav-toggle" aria-controls="primary-navigation" style="z-index: 100">
@@ -73,8 +73,8 @@
           </ul>
         </div>
         <div class="xl:flex items-center gap-4 md:block">
-          <a href="<?php echo $URL ?>tube-mill.php">
-            <img class="w-64 md:w-auto" src="<?php echo $URL ?>logo.jpg" alt="inoxiumtubi logo">
+          <a href="https://www.mideastmetal.com/" target="_blank">
+            <img class="w-64 md:w-80" src="<?php echo $URL ?>logo.jpg" alt="inoxiumtubi logo">
           </a>
           <!-- <ul class="flex divide-x lg:text-sm xl:text-base">
             <li class="border-indigo-500 px-2">
@@ -97,7 +97,7 @@
       </div>
     </div>
     <nav class="header-nav">
-      <ul class="flex lg:divide-x > * primary-navigation" data-visible="false" style="z-index: 9">
+      <ul class="flex lg:divide-x > * primary-navigation" data-visible="false">
         <?php foreach ($nav_links as $k => $v) { ?>
           <li>
             <a class="py-2 2xl:px-6 px-4" href="<?php echo $v ?>">
@@ -105,22 +105,22 @@
             </a>
         </li>
         <?php } ?>
-        <li class="lg:hidden">
+        <li class="hidden">
           <a href="<?php echo $URL ?>useful-links.php">
             Useful Links
           </a>
         </li>
-        <li class="lg:hidden">
+        <li class="hidden">
           <a href="<?php echo $URL ?>photo-gallery.php">
             Photo Gallery
           </a>
         </li>
-        <li class="lg:hidden">
+        <li class="hidden">
           <a href="<?php echo $URL ?>video-gallery.php">
             Video Gallery
           </a>
         </li>
-        <li class="lg:hidden">
+        <li class="hidden">
           <a href="<?php echo $URL ?>contact-us.php">
             Contact Us
           </a>

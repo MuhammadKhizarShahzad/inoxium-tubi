@@ -1,98 +1,54 @@
 <?php include_once("header.php") ?>
 
-<section class="flex md:items-center flex-col-reverse md:flex-row">
-  <div class="left-section md:pr-3 md:border-r border-black w-full md:w-3/4">
-    <div class="scroll-section h-full md:h-64 overflow-y-auto">
-      <h1>Classification</h1>
-      <p>Stainless steels come in several types depending on their microstructure.</p>
-      <h2>Austenitic stainless steels:</h2>
-      <p>
-        Contain at least 6 percent nickel and austenite—carbon-containing iron with a face-centered
-        cubic structure—and have good corrosion resistance and high ductility (the ability of the material to bend 
-        without breaking). They are commonly used in food processing equipment, kitchen sinks, chemical plants, 
-        Kitchen furniture, etc.
-      </p>
-      <h2>Some of the different grades in austenitic stainless steel:</h2>
-      <ul>
-        <li>301</li>
-        <li>304</li>
-        <li>316L</li>
-        <li>321</li>
-        <li>310</li>
-      </ul>
-      <h2>Ferritic stainless steels:</h2>
-      <p>
-        (ferrite has a body-centered cubic structure) have better resistance to stress corrosion than austenitic, but
-        they are difficult to weld. They are used in water coolers, hot water tanks, automobiles exhausts, etc.
-      </p>
-      <h2>Some of the different grades in ferritic stainless steel:</h2>
-      <ul>
-        <li>430</li>
-        <li>409</li>
-        <li>4003</li>
-        <li>403</li>
-      </ul>
-      <h2>Duplex stainless steels:</h2>
-      <p>which generally contain equal amounts of ferrite and austenite, provide better resistance to
-        pitting and crevice
-        corrosion in most environments. They also have superior resistance to cracking due to chloride stress corrosion,
-        and
-        they are about twice as strong as the common austenitics. Therefore, duplex stainless steels are widely used in
-        the
-        chemical industry in refineries, gas-processing plants, pulp and paper plants, and sea water piping
-        installations.
-      </p>
-      <h2>Some of the different grades in Duplex stainless steel:</h2>
-      <ul>
-        <li>2205</li>
-        <li>2304</li>
-        <li>2507</li>
-        <li>3RE60</li>
-        <li>329</li>
-      </ul>
-      <h2>Martensitic stainless steels</h2>
-      <p>Contain iron having a needle-like structure. They are plain chromium steels containing between
-        12 and 18%
-        chromium.
-        Martensitic stainless steels are used in making shafts, surgical instruments, knife blades, spindles and pins.
-      </p>
-      <h2>Some of the different grades in Martensitic stainless steel:</h2>
-      <ul>
-        <li>410</li>
-        <li>420</li>
-        <li>431</li>
-        <li>416</li>
-        <li>440C</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="p-0 md:p-5 md:pr-0 w-full md:w-1/4 mb-4 md:mb-0">
-    <nav class="right-tabs">
-      <ul class="flex flex-col divide > * bg-none border-0">
-        <li class="mb-1 border">
-          <a class="active" href="<?php echo $URL ?>types-of-ss/classification.php">
-            Classification
-          </a>
+<section>
+  <h1>Inspection Equipment & System</h1>
+  <ol class="list-decimal	pl-5">
+    <li>
+      UTM: Mechanical/Physical Testing
+      <ul class="list-disc pl-5">
+        <li>
+          Tensile: To obtain the mechanical properties of finished tubes & pipes and testing for flaring, flange 
+          test, flattening, reverse flatting, reverse bending.
         </li>
-        <li class="mb-1 border">
-          <a href="<?php echo $URL ?>types-of-ss/chemical-composition.php">
-            Chemical Composition
-          </a>
+        <li>
+          Flattening Test: This test is conducted to check the strength of the welded section subjecting it 
+          to extreme compression stress.
         </li>
-        <li class="mb-1 border">
-          <a href="<?php echo $URL ?>types-of-ss/conversion-table.php">
-            Conversion Table
-          </a>
+        <li>
+          Flaring Test: The test is conducted to establish the forming behaviour of pipes & tubes which are 
+          expanded to certain degree.
         </li>
-        <li class="mb border">
-          <a href="<?php echo $URL ?>types-of-ss/weight-calculation.php">
-            Weight Calculation
-          </a>
+        <li>
+          Flange: The test is considered passed if the outer diameter of the flange reaches the value defined in 
+          the specification standards without crack formations in the welded tube.
         </li>
+        <li>
+          Reverse Bend: To ensures full ductility of the tubes, as well as tests the weld and the base metal strength 
+          by stretching the material to its physical endurance limit.
+        </li>
+        <img src="">
       </ul>
-    </nav>
-  </div>
+    </li>
+    <li>LP/HP Heaters</li>
+    <li>Evaporators</li>
+  </ol>
+  <h2>STAINLESS STEEL ORNAMENTAL TUBES APPLICATION</h2>
+  <ul class="list-disc pl-5">
+    <li>Boat Rails & Ladders</li>
+    <li>Automotive Step Bars & Grille Guards</li>
+    <li>Washroom Grab Bars</li>
+    <li>Architecture</li>
+    <li>Swimming Pool Rails	</li>
+    <li>Ovens, Refrigerators, Restaurant Equipment</li>
+    <li>Medical Equipment	</li>
+    <li>Exercise Equipment</li>
+    <li>Rain showers</li>
+    <li>handrail</li>
+    <li>stair rail</li>
+    <li>Industrial kitchen furniture</li>
+    <li>ovens</li>
+    <li>refrigerators</li>
+  </ul>
 </section>
 
 <!-- <link href="<?php echo $URL ?>assests/css/slider.css" rel="stylesheet">

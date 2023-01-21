@@ -36,9 +36,9 @@
 <body class="xl:container xl:mx-auto px-6">
   <header class="my-4">
     <div class="relative flex justify-between items-center">
-      <div class="logo">
+      <div class="logo w-10/12 sm:w-6/12">
         <a href="<?php echo $URL ?>">
-          <img class="w-72 sm:w-full" src="<?php echo $URL ?>inoxium.png" alt="inoxium logo">
+          <img src="<?php echo $URL ?>inoxium.png" alt="inoxium logo">
         </a>
       </div>
       <button class="mobile-nav-toggle" aria-controls="primary-navigation" style="z-index: 100">

@@ -1,93 +1,110 @@
 <?php include_once("header.php") ?>
+<script defer>
+  const data = [
+    {
+      heading: "Stainless Steel Industrial Pipes:",
+      list: [
+        "Instrumentation", 
+        "Automobiles", 
+        "Heat Exchanger", 
+        "Surface Condensers", 
+        "Digesters", 
+        "Fluid Piping",
+        "LP/HP Heaters",
+        "Evaporators"
+      ]
+    },
+    {
+      heading: "STAINLESS STEEL ORNAMENTAL TUBES APPLICATION:",
+      list: [
+        "Boat Rails & Ladders", 
+        "Automotive Step Bars & Grille Guards", 
+        "Washroom Grab Bars", 
+        "Architecture", 
+        "Swimming Pool Rails", 
+        "Ovens, Refrigerators, Restaurant Equipment",
+        "Medical Equipment	",
+        "Exercise Equipment",
+        "Rain showers",
+        "handrail",
+        "stair rail",
+        "Industrial kitchen furniture",
+        "ovens",
+        "refrigerators"
+      ]
+    },
+    {
+      heading: "INDUSTRIES SERVED:",
+      list: [
+        "Industrial Kitchen equipment factories", 
+        "Medical equipment factories", 
+        "Ship building", 
+        "Chemical Processing", 
+        "Sugar Mills", 
+        "Heat exchangers",
+        "Pharmaceutical factories",
+        "Textile Machinery",
+        "Fertilizers",
+        "Dairy and Food Processing",
+        "Power Plants",
+        "Construction",
+        "Modern Architecture",
+        "Oil and Gas Processing",
+        "Water treatment facilities",
+        "Desalination",
+        "Synthetic Fibers",
+        "Pulp and Paper",
+        "Breweries",
+        "Refinery & Petrochemicals",
+        "Energy industries"
+      ]
+    }
+  ]
+</script>
 
 <section class="flex md:items-center flex-col-reverse md:flex-row">
   <div class="left-section md:pr-3 md:border-r border-black w-full md:w-3/4">
-    <div class="scroll-section h-full md:h-64 overflow-y-auto">
-      <h1>Classification</h1>
-      <p>Stainless steels come in several types depending on their microstructure.</p>
-      <h2>Austenitic stainless steels:</h2>
-      <p>
-        Contain at least 6 percent nickel and austenite—carbon-containing iron with a face-centered
-        cubic structure—and have good corrosion resistance and high ductility (the ability of the material to bend 
-        without breaking). They are commonly used in food processing equipment, kitchen sinks, chemical plants, 
-        Kitchen furniture, etc.
-      </p>
-      <h2>Some of the different grades in austenitic stainless steel:</h2>
-      <ul>
-        <li>301</li>
-        <li>304</li>
-        <li>316L</li>
-        <li>321</li>
-        <li>310</li>
-      </ul>
-      <h2>Ferritic stainless steels:</h2>
-      <p>
-        (ferrite has a body-centered cubic structure) have better resistance to stress corrosion than austenitic, but
-        they are difficult to weld. They are used in water coolers, hot water tanks, automobiles exhausts, etc.
-      </p>
-      <h2>Some of the different grades in ferritic stainless steel:</h2>
-      <ul>
-        <li>430</li>
-        <li>409</li>
-        <li>4003</li>
-        <li>403</li>
-      </ul>
-      <h2>Duplex stainless steels:</h2>
-      <p>which generally contain equal amounts of ferrite and austenite, provide better resistance to
-        pitting and crevice
-        corrosion in most environments. They also have superior resistance to cracking due to chloride stress corrosion,
-        and
-        they are about twice as strong as the common austenitics. Therefore, duplex stainless steels are widely used in
-        the
-        chemical industry in refineries, gas-processing plants, pulp and paper plants, and sea water piping
-        installations.
-      </p>
-      <h2>Some of the different grades in Duplex stainless steel:</h2>
-      <ul>
-        <li>2205</li>
-        <li>2304</li>
-        <li>2507</li>
-        <li>3RE60</li>
-        <li>329</li>
-      </ul>
-      <h2>Martensitic stainless steels</h2>
-      <p>Contain iron having a needle-like structure. They are plain chromium steels containing between
-        12 and 18%
-        chromium.
-        Martensitic stainless steels are used in making shafts, surgical instruments, knife blades, spindles and pins.
-      </p>
-      <h2>Some of the different grades in Martensitic stainless steel:</h2>
-      <ul>
-        <li>410</li>
-        <li>420</li>
-        <li>431</li>
-        <li>416</li>
-        <li>440C</li>
-      </ul>
-    </div>
+    <h1 class="text-2xl">Applications</h1>
+    <h2 class="heading"></h2>
+    <ul class="list-disc pl-5"></ul>
+
+    <script defer>
+      let i = 0;
+      const ul = document.querySelector(".list-disc");
+      const h2 = document.querySelector(".heading");
+
+      h2.innerHTML = `${data[i].heading}`
+      let listData = data[i].list;
+      for (let i = 0; i < listData.length; i++)
+        ul.innerHTML += `<li>${listData[i]}</li>`;
+
+      const index = (inc) => {
+        i = inc;
+        listData = data[i].list;
+        h2.innerHTML = `${data[i].heading}`
+        ul.innerHTML = "";
+        for (let i = 0; i < listData.length; i++)
+          ul.innerHTML += `<li>${listData[i]}</li>`;
+      }
+    </script>
   </div>
 
   <div class="p-0 md:p-5 md:pr-0 w-full md:w-1/4 mb-4 md:mb-0">
     <nav class="right-tabs">
       <ul class="flex flex-col divide > * bg-none border-0">
-        <li class="mb-1 border">
-          <a class="active" href="<?php echo $URL ?>types-of-ss/classification.php">
-            Classification
+        <li class="mb-1 border cursor-pointer" onclick="index(0)">
+          <a class="active px-4 py-3">
+            Stainless Steel Industrial Pipes 
           </a>
         </li>
-        <li class="mb-1 border">
-          <a href="<?php echo $URL ?>types-of-ss/chemical-composition.php">
-            Chemical Composition
+        <li class="mb-1 border cursor-pointer" onclick="index(1)">
+          <a class="px-4 py-3">
+            Stainless Steel Oonamental Tubes Application
           </a>
         </li>
-        <li class="mb-1 border">
-          <a href="<?php echo $URL ?>types-of-ss/conversion-table.php">
-            Conversion Table
-          </a>
-        </li>
-        <li class="mb border">
-          <a href="<?php echo $URL ?>types-of-ss/weight-calculation.php">
-            Weight Calculation
+        <li class="mb border cursor-pointer" onclick="index(2)">
+          <a class="px-4 py-3">
+          	INDUSTRIES SERVED
           </a>
         </li>
       </ul>

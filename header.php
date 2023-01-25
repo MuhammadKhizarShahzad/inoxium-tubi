@@ -30,7 +30,7 @@
   <link rel="stylesheet" href="<?php echo $URL ?>assests/css/global.css">
   <script src="<?php echo $URL ?>assests/js/navigation.js" defer></script>
   <script defer src="<?php echo $URL ?>assests/js/active-page.js"></script>
-  <title>Stainless Steel Stockists UAE-Pipes & Tubes-Stainless Steel Dubai</title>
+  <title>Inoxiumtubi</title>
 </head>
 
 <body class="xl:container xl:mx-auto px-6">
